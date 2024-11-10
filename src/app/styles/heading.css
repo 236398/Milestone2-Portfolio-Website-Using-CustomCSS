@@ -1,0 +1,48 @@
+/* styles/heading.css */
+.heading-container {
+  text-align: center;
+  font-size: 2.5rem; 
+  line-height: 2.5rem;
+  padding-bottom: 2rem;
+}
+
+.heading-title {
+  border-bottom: 4px solid #ffffff; 
+  display: inline-block;
+  padding-bottom: 0.5rem; 
+  margin: 0;
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+  .heading-container {
+    font-size: 2rem; 
+    line-height: 2rem;
+  }
+
+  .heading-title {
+    font-size: 1.8rem; 
+  }
+}
+
+@media (max-width: 768px) {
+  .heading-container {
+    font-size: 1.5rem; 
+    line-height: 1.5rem;
+  }
+
+  .heading-title {
+    font-size: 1.2rem; 
+  }
+}
+
+@media (max-width: 480px) {
+  .heading-container {
+    font-size: 1.25rem; 
+    line-height: 1.25rem;
+  }
+
+  .heading-title {
+    font-size: 1rem; 
+  }
+}
